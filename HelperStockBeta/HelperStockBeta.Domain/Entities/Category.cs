@@ -39,7 +39,7 @@ namespace HelperStockBeta.Domain.Entities
                 "Invalid name. Name is required!");
 
             DomainExceptionValidation.When(name.Length < 3,
-                "Name is minimum 3 charecters");
+                "Name is minimum 3 characters");
         }
     }
 }
