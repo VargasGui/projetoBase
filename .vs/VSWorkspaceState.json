@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
     "",
+    "\\HelperStockBeta",
+    "\\HelperStockBeta\\HelperStockBeta.Application",
     "\\HelperStockBeta\\HelperStockBeta.Infra.IoC"
   ],
   "PreviewInSolutionExplorer": false
