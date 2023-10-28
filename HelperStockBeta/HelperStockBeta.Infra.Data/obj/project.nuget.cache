@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BWgKAGrj2fBH3ZyVlgrMPGLw91QlWK/8U/GSQx2m6UKBlCcz3/3UmMhAtMmiTi3CNa70nCwwfrcT02+g/527CQ==",
+  "dgSpecHash": "pAJGUlBRBLqt5aHtZkuA2EewCH+gkXbhWyZrGkg/KCLBY6tBwi0ivCHxl+U6T4N8s0LHlPoJrB+n9L9DVT8UwQ==",
   "success": true,
-  "projectFilePath": "C:\\repositorios\\projetoBase\\HelperStockBeta\\HelperStockBeta.Infra.Data\\HelperStockBeta.Infra.Data.csproj",
+  "projectFilePath": "C:\\RepCertoVargas\\HelperStockBeta\\HelperStockBeta.Infra.Data\\HelperStockBeta.Infra.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
