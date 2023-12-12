@@ -15,6 +15,8 @@ namespace HelperStockBeta.Infra.Data.EntityConfiguration
 
             builder.HasOne(e => e.Category).WithMany(e => e.Products)
                 .HasForeignKey(e => e.CategoryId);
+            builder.HasData(
+                new Product("Detergente", "Produto de Limpeza", 5, 1, "http://www.linkdeimagemficticia.com/avatp"));
         }
     }
 }

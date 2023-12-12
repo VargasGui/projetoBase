@@ -10,5 +10,6 @@ namespace HelperStockBeta.Application.DTOs
         [MinLength(3)]
         [MaxLength(100)]
         public string Name { get; set; }
+
     }
 }

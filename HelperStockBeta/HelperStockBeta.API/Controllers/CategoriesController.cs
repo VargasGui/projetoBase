@@ -21,7 +21,7 @@ namespace HelperStockBeta.API.Controllers
             var categories = await _categoryService.GetCategories();
             if (categories == null)
             {
-                return NotFound("Categoria not found");
+                return NotFound("Categoriy was not found");
             }
 
             return Ok(categories);
@@ -34,7 +34,7 @@ namespace HelperStockBeta.API.Controllers
 
             if (category == null)
             {
-                return NotFound("Category not found");
+                return NotFound("Category was not found");
             }
 
             return Ok(category);
@@ -57,7 +57,7 @@ namespace HelperStockBeta.API.Controllers
         {
             if(id != categoryDto.Id)
             {
-                return BadRequest("Id not verificated");
+                return BadRequest("Id was not verificated");
             }
 
             if(categoryDto == null)
@@ -76,7 +76,7 @@ namespace HelperStockBeta.API.Controllers
             var category = _categoryService.GetById(id);
             if(category == null)
             {
-                return NotFound("The category delete not found");
+                return NotFound("The category delete was not found");
             }
 
             await _categoryService.Remove(id);
